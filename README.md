@@ -41,7 +41,7 @@ var_dump(BPI::historical(strtotime('2021-03-01'), strtotime('2021-03-16'), 'EUR'
 
 ## License
 
-This package is released under the MIT License. See the bundled [LICENSE](LICENSE.md) file for details.
+This package is released under the MIT License. See the bundled [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 
