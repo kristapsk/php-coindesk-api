@@ -8,6 +8,14 @@ This is a simple composer package that implements [CoinDesk Bitcoin Price Index 
 
 - PHP 7 with curl and json extensions enabled
 
+## Installation
+
+```
+composer require kristapsk/php-coindesk-api
+```
+
+Or just copy `src/BPI.php` to your project, it has no other dependencies.
+
 ## Usage
 
 In all examples last parameter of methods called specifies currency. Supported currencies are `EUR`, `GBP` and `USD`. It can be ommited, will default to `USD`.
