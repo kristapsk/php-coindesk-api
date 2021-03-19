@@ -13,7 +13,7 @@ In all examples last parameter of methods called specifies currency. Supported c
 ### Get current Bitcoin price
 
 ```php
-use kristapsk\CoinDesk;
+use kristapsk\CoinDesk\BPI;
 
 // returns float or null on failure
 var_dump(BPI::currentPrice('EUR'));
@@ -22,7 +22,7 @@ var_dump(BPI::currentPrice('EUR'));
 ### Get historical Bitcoin prices
 
 ```php
-use kristapsk\CoinDesk;
+use kristapsk\CoinDesk\BPI;
 
 // returns array with Y-m-d format date string as key and float price as value
 // or null on failure
