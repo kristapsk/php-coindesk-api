@@ -1,7 +1,5 @@
 # CoinDesk Bitcoin Price Index API for PHP
 
-[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@kristapsk/F0918E)](https://tippin.me/@kristapsk)
-
 This is a simple composer package that implements [CoinDesk Bitcoin Price Index API](https://www.coindesk.com/coindesk-api) for PHP.
 
 ## Requirements
